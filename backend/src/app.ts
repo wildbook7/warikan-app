@@ -19,7 +19,7 @@ export function createApp(
   app.use(express.json());
 
   const options: cors.CorsOptions = {
-    origin: ["http://localhost:3001"],
+    origin: ["http://127.0.0.1:3001"],
   };
   app.use(cors(options));
 
